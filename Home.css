@@ -20,6 +20,8 @@ body {
   margin: 0 auto;
 }
 
+/* header */
+
 header {
   background: #E54B4B;
   color: #EBEBD3;
@@ -172,6 +174,8 @@ header::after {
 
 }
 
+/* footer */
+
 footer {
   background-color: #E54B4B;
   text-decoration: none;
@@ -184,4 +188,32 @@ footer {
 .footer-p {
   font-style: italic;
   color: #EBEBD3;
+}
+
+/* section-1 */
+
+.intro-card {
+  margin: 0px 45% 20px 40px;
+  background-color: rgb(255, 246, 221);
+  position: absolute;
+  border-radius: 20px;
+  padding: 0px 10px 60px 10px;
+  font-weight: lighter;
+}
+
+.inner-card {
+  padding: 20px;
+}
+
+.join-button {
+  width: 4.5em;
+  border-radius: 0;
+  padding: 4px;
+  color: black;
+  background-color: rgb(254, 211, 93);
+}
+
+.intro-card h1 {
+  font-size: 2em;
+  font-weight: lighter;
 }
