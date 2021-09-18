@@ -1,4 +1,7 @@
 /* colors -> https://coolors.co/e54b4b-ebebd3-464655-e4b363-e8e9eb */
+html {
+  height: 100%;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
@@ -6,6 +9,9 @@ body {
   background: #F0F8EA;
   font-family: 'Quicksand', sans-serif;
   margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -172,6 +178,7 @@ footer {
   text-align: center;
   font-weight: light;
   font-size: 1.1em;
+  margin-top: auto;
 }
 
 .footer-p {
