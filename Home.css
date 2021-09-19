@@ -193,11 +193,13 @@ footer {
 /* section-1 */
 
 .intro-card {
-  margin: 0px 45% 20px 30px;
+  float: left;
   background-color: rgb(255, 246, 221);
   border-radius: 20px;
   padding: 0px 10px 60px 10px;
   font-weight: lighter;
+  width: 40%;
+  margin: 100px;
 }
 
 .inner-card {
@@ -219,5 +221,10 @@ footer {
 }
 
 .section-1 {
-  background-color: red;
+  background-image: url(maik-jonietz-nZcMWOKAJrY-unsplash.jpg);
+  background-size: cover;
+}
+
+.copy-right {
+  color: white;
 }
