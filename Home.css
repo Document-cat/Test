@@ -195,7 +195,6 @@ footer {
 .intro-card {
   margin: 0px 45% 20px 30px;
   background-color: rgb(255, 246, 221);
-  position: absolute;
   border-radius: 20px;
   padding: 0px 10px 60px 10px;
   font-weight: lighter;
@@ -219,9 +218,6 @@ footer {
   font-weight: lighter;
 }
 
-.section-1 img {
-  margin-left: 60%;
-  width: 400px;
-  height: 200px;
+.section-1 {
   background-color: red;
 }
