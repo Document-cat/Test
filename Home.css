@@ -193,7 +193,7 @@ footer {
 /* section-1 */
 
 .intro-card {
-  margin: 0px 45% 20px 40px;
+  margin: 0px 45% 20px 30px;
   background-color: rgb(255, 246, 221);
   position: absolute;
   border-radius: 20px;
@@ -206,6 +206,7 @@ footer {
 }
 
 .join-button {
+  margin-top: 15px;
   width: 4.5em;
   border-radius: 0;
   padding: 4px;
@@ -216,4 +217,11 @@ footer {
 .intro-card h1 {
   font-size: 2em;
   font-weight: lighter;
+}
+
+.section-1 img {
+  margin-left: 60%;
+  width: 400px;
+  height: 200px;
+  background-color: red;
 }
