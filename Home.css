@@ -7,11 +7,11 @@ html {
   height: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 body {
   background-color: rgb(255, 246, 221);
-  font-family: 'courier new', monospace;
+  font-family: "courier new", monospace;
   margin: 0 auto;
   min-height: 100%;
   display: flex;
@@ -27,14 +27,14 @@ body {
 /* header */
 
 header {
-  background: #E54B4B;
-  color: #EBEBD3;
+  background: #e54b4b;
+  color: #ebebd3;
   padding: 1em 0;
   position: relative;
 }
 
 header::after {
-  content: '';
+  content: "";
   clear: both;
   display: block;
 }
@@ -58,12 +58,12 @@ header::after {
   background: #464655;
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 700ms;
-/*   display: none; */
+  /*   display: none; */
 }
 
 .site-nav--open {
   clip-path: circle(250% at top right);
-/*   display: block; */
+  /*   display: block; */
 }
 
 .site-nav ul {
@@ -81,7 +81,7 @@ header::after {
 }
 
 .site-nav a {
-  color: #EBEBD3;
+  color: #ebebd3;
   display: block;
   padding: 2em 4em 2em 1.5em;
   text-transform: uppercase;
@@ -90,7 +90,7 @@ header::after {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  background: #E4B363;
+  background: #e4b363;
   color: #464655;
 }
 
@@ -100,23 +100,23 @@ header::after {
   margin-right: 1em;
   width: 1.1em;
   text-align: right;
-  color: rgba(255,255,255,.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .menu-toggle {
   padding: 1em;
   position: absolute;
-  top: .5em;
-  right: .5em;
+  top: 0.5em;
+  right: 0.5em;
   cursor: pointer;
 }
 
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  content: '';
+  content: "";
   display: block;
-  background: #EBEBD3;
+  background: #ebebd3;
   height: 3px;
   width: 1.75em;
   border-radius: 3px;
@@ -144,7 +144,6 @@ header::after {
 }
 
 @media (min-width: 700px) {
-
   .menu-toggle {
     display: none;
   }
@@ -175,13 +174,12 @@ header::after {
   .site-nav--icon {
     display: none;
   }
-
 }
 
 /* footer */
 
 footer {
-  background-color: #E54B4B;
+  background-color: #e54b4b;
   text-decoration: none;
   text-align: center;
   font-weight: light;
@@ -191,7 +189,7 @@ footer {
 
 .footer-p {
   font-style: italic;
-  color: #EBEBD3;
+  color: #ebebd3;
 }
 
 /* section-1 */
@@ -282,5 +280,18 @@ footer {
 .card-content {
   border: 2px solid gray;
   border-radius: 10%;
+}
 
+.side-img {
+  float: right;
+  width: 50%;
+  height: 90%;
+}
+
+.web-list {
+  width: 50%;
+}
+
+.OWC {
+  display: flex;
 }
