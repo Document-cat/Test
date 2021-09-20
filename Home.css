@@ -242,14 +242,6 @@ footer {
   font-weight: lighter;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 /* Float four columns side by side */
 .column {
   float: left;
@@ -258,7 +250,10 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;
+  padding: 20px 10px 20px 10px;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -282,4 +277,10 @@ body {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.card-content {
+  border: 2px solid gray;
+  border-radius: 10%;
+
 }
